@@ -21,7 +21,7 @@ var con = mysql.createConnection({
 	password: 'ourdesignz',
 	database: 'curdnode'
 });
-
+// this is route
 app.get('/', testtable.list);
 app.get('/register', function(req, res){
 	res.render('register');
